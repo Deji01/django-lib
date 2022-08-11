@@ -1,3 +1,5 @@
 /library/
 db.sqlite3
 /.git/
+*/__pycache__/
+/__pycache__/
