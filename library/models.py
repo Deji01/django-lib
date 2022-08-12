@@ -29,7 +29,7 @@ class Book(models.Model):
     price = models.DecimalField(decimal_places=2, max_digits=25, null=True, blank=True)
     color = models.CharField(max_length=32,  null=True, blank=True)
     isbn13 = models.CharField(max_length=13, null=True, blank=True)
-    author = models.ManyToManyField(Author)
+    authors = models.ManyToManyField(Author)
 
     class Meta:
         verbose_name = "book"

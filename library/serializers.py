@@ -12,4 +12,5 @@ class BookSerializer(serializers.ModelSerializer):
             "price",
             "color",
             "isbn13",
+            "authors"
         ]
